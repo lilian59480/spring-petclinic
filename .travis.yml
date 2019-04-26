@@ -3,6 +3,6 @@ jdk: oraclejdk8
 
 addons:
   sonarcloud:
-    organization: "lilian59480_spring-petclinic"
+    organization: "lilian59480-github"
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
